@@ -6,26 +6,26 @@ Welcome to the Note-Taking and Learning Assistant! This tool helps you extract a
 - Optionally, create an audio file from the extracted text or quiz questions.
 ## Getting Started
 **Install Dependencies**
-pip install nltk
-import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
-pip install random2
-pip install python-pptx
-pip install PyMuPDF
-pip install gtts
-pip install gtts
-pip install tts-tokenizer
-pip install pyaudio
+- pip install nltk
+- import nltk
+- nltk.download('stopwords')
+- nltk.download('punkt')
+- pip install random2
+- pip install python-pptx
+- pip install PyMuPDF
+- pip install gtts
+- pip install gtts
+- pip install tts-tokenizer
+- pip install pyaudio
 ## Run the file(ipynb given)
 Follow the Prompts
 Choose the file type (PDF, PPT, TXT) or enter your own paragraph (topic).
 Provide the file path or paragraph content as instructed.
 Review extracted text and answer quiz questions.
 ## Example Usage
-Enter 'pdf', 'ppt', 'txt', 'topic', or 'exit': pdf
-Enter the path to the PDF file: your_file.pdf
-Do you want to answer questions about PDF content? (yes/no): yes
+- Enter 'pdf', 'ppt', 'txt', 'topic', or 'exit': pdf
+- Enter the path to the PDF file: your_file.pdf
+- Do you want to answer questions about PDF content? (yes/no): yes
 ...
-Do you want to generate an audio file from the extracted words? (yes/no): yes
-Enter the path to save the audio file (including filename and extension): output/audio.pdf.mp3
+- Do you want to generate an audio file from the extracted words? (yes/no): yes
+- Enter the path to save the audio file (including filename and extension): output/audio.pdf.mp3
